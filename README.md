@@ -7,4 +7,7 @@ Discord.py
 		python -m pip install discord
 
 Usage:
-	Run logger.py, input your Discord credentials, and then type !logServer in whatever server you wish to log.
+	Run logger.py, input your Discord credentials or a bot token.
+	The bot will then go ahead and log every channel of every server that it is in.
+	It will also attempt to log voice channels or categories, but they will show up as empty.
+	

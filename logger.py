@@ -27,7 +27,6 @@ print("---\n---\n---")
 async def on_ready():
     for serv in client.servers:
         print("Beginning logging of server " + serv.name)
-        for chan in serv.channels:
             print("Beginning logging of channel " + chan.name)
             try:
                 os.mkdir(serv.name)
