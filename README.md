@@ -1,8 +1,8 @@
 # discordLoggerBot
 A bot I made for logging the contents of Discord servers
 
-Dependencies you'll need:
-Discord.py
+## Dependencies
+Old version of Discord.py (Requires that you're on Python <3.4)
 	Can be installed with:
 		python -m pip install discord
 
